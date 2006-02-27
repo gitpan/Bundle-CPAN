@@ -1,6 +1,6 @@
 package Bundle::CPAN;
 use strict;
-$VERSION = '1.84';
+$VERSION = '1.85';
 
 1;
 
@@ -22,11 +22,15 @@ Module::Signature
 
 File::Temp
 
+File::HomeDir
+
 File::Spec
 
 Compress::Zlib
 
 Archive::Tar
+
+Archive::Zip
 
 Bundle::libnet
 
