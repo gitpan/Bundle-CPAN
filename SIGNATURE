@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.51.
+signed via the Module::Signature module, version 0.55.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,15 +14,15 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 4af07e6f618d2854e042d39ee5fdb56b823558ee CPAN.pm
+SHA1 3a6ce92651103e6a4f77cfc2823cdc11018bbe81 CPAN.pm
 SHA1 dcd5ea41e2b7b93d58ae388bd330b24bbab8ff2e MANIFEST
-SHA1 5f5f1eadcab9952a97e543930cb5f0764d4851b4 META.yml
+SHA1 4372f1a1f116a458e4462360c70c1381c7fd472e META.yml
 SHA1 7743195f27ed67ea1025e3da0e9a5f2b501dfbba Makefile.PL
 SHA1 2a3adebb8252dc893681d17460082c2e08aa144a t/00signature.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.3 (GNU/Linux)
+Version: GnuPG v1.4.5 (GNU/Linux)
 
-iD8DBQFEwVQn7IA58KMXwV0RAiLKAKCs4FS0cJ2bagpb6fac9maoh2cCwACfWoRC
-RtSII5QSkLIzQdqNQh5URGk=
-=EFJo
+iD8DBQFFFrcN7IA58KMXwV0RAq6CAKDMD6X4agON8WCpoKi2/Eitb4jwoQCgozl6
+m2jV3+mrJM3fQadzSHl9CEI=
+=uF8T
 -----END PGP SIGNATURE-----

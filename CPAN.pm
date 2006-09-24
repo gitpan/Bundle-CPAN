@@ -1,7 +1,7 @@
 package Bundle::CPAN;
 use strict;
 use vars qw($VERSION);
-$VERSION = '1.852'; # use 3 digits to minimize confusion with the
+$VERSION = '1.853'; # use 3 digits to minimize confusion with the
                     # other CPAN.pm
 
 1;
@@ -18,13 +18,23 @@ Bundle::CPAN - Bundle to optmize the behaviour of CPAN.pm
 
 =head1 CONTENTS
 
+Module::Build
+
+File::Spec -- prereq
+
+File::Temp -- prepreq
+
+Scalar::Util -- prereq
+
+Test::Harness -- prereq
+
+Test::More -- prereq
+
+Data::Dumper
+
 Digest::SHA
 
-File::Temp
-
 File::HomeDir
-
-File::Spec
 
 Compress::Zlib
 
@@ -32,21 +42,24 @@ Archive::Tar
 
 Archive::Zip
 
-Bundle::libnet
+Net::Cmd -- not sure if we need this for Net::FTP
+
+Net::FTP
 
 Term::ReadKey
 
-ILYAZ/modules/Term-ReadLine-Perl-1.0302.tar.gz
+Term::ReadLine::Perl -- could be replaced by "readline" some time after 1.88
 
 YAML
 
 Text::Glob
 
-Module::Build
-
 CPAN
 
 File::Which
+
+
+
 
 =head1 DESCRIPTION
 
