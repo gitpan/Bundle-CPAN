@@ -1,7 +1,7 @@
 package Bundle::CPAN;
 use strict;
 use vars qw($VERSION);
-$VERSION = '1.853'; # use 3 digits to minimize confusion with the
+$VERSION = '1.854'; # use 3 digits to minimize confusion with the
                     # other CPAN.pm
 
 1;
@@ -10,13 +10,15 @@ __END__
 
 =head1 NAME
 
-Bundle::CPAN - Bundle to optmize the behaviour of CPAN.pm
+Bundle::CPAN - Bundle to optimize the behaviour of CPAN.pm
 
 =head1 SYNOPSIS
 
  perl -MCPAN -e 'install Bundle::CPAN'
 
 =head1 CONTENTS
+
+ExtUtils::CBuilder -- some of the things below depend on it without declaring (as of 2006-10)
 
 Module::Build
 
@@ -50,16 +52,13 @@ Term::ReadKey
 
 Term::ReadLine::Perl -- could be replaced by "readline" some time after 1.88
 
-YAML
+YAML -- user may have a preference for YAML::Syck but as a bundle we don't know
 
 Text::Glob
 
 CPAN
 
 File::Which
-
-
-
 
 =head1 DESCRIPTION
 
@@ -77,6 +76,8 @@ get a working CPAN.pm. CPAN.pm can work quite well without the other
 modules (except for Net::FTP which is really highly recommended). The
 other modules are B<suggested> and can safely be installed later or
 not at all.
+
+Please install the Bundle::CPANxxl to get a few more.
 
 =head1 AUTHOR
 
