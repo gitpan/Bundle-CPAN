@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Bundle-CPAN
-version:             1.854
+version:             1.855
 abstract:            ~
 license:             unknown
 generated_by:        ExtUtils::MakeMaker version 6.30_02
