@@ -1,11 +1,12 @@
 --- #YAML:1.0
 name:                Bundle-CPAN
-version:             1.856
+version:             1.857
 abstract:            ~
 license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.36
+generated_by:        ExtUtils::MakeMaker version 6.36_01
 distribution_type:   module
 requires:     
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.2.html
     version: 1.2
+repository: "https://pause.perl.org:5460/svn/cpanpm/trunk/related/Bundle-CPAN"
