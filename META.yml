@@ -1,7 +1,7 @@
 ---
-abstract: unknown
+abstract: 'Bundle to optimize the behaviour of CPAN.pm'
 author:
-  - unknown
+  - 'Andreas Koenig'
 build_requires:
   ExtUtils::MakeMaker: 0
 configure_requires:
@@ -12,7 +12,7 @@ keywords:
   - CPAN
   - module
   - 'module installation'
-license: unknown
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -23,5 +23,6 @@ no_index:
     - inc
 requires: {}
 resources:
+  homepage: https://github.com/andk/cpanpm/tree/master/related/Bundle-CPAN
   repository: git://github.com/andk/cpanpm.git
-version: 1.859
+version: 1.861

@@ -1,7 +1,7 @@
 package Bundle::CPAN;
 use strict;
 use vars qw($VERSION);
-$VERSION = '1.859'; # use 3 digits to minimize confusion with the
+$VERSION = '1.861'; # use 3 digits to minimize confusion with the
                     # other CPAN.pm
 
 1;
@@ -40,7 +40,7 @@ Archive::Tar -- needed by Module::Build
 
 Module::Build -- needed by File::Spec
 
-File::Spec -- prereq 
+File::Spec -- prereq
 
 Digest::SHA
 
@@ -77,9 +77,8 @@ dependencies.
 
 Note that all modules in this Bundle are not strict prerequisites to
 get a working CPAN.pm. CPAN.pm can work quite well without the other
-modules (except for Net::FTP which is really highly recommended). The
-other modules are B<suggested> and can safely be installed later or
-not at all.
+modules. The other modules are B<suggested> and can safely be
+installed later.
 
 Please install the Bundle::CPANxxl to get a few more.
 
